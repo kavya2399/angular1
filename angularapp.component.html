@@ -1,0 +1,32 @@
+<!-- <p>
+  angularapp works!
+</p> -->
+<p>Angular2 Operation</p>
+<form>
+  <table>
+    <tr>
+      <td>Id:</td>
+      <td><input type="text" name="id" [(ngModel)]='id'></td>
+    </tr>
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" name="name" [(ngModel)]='name'></td>
+    </tr>
+    <tr>
+      <td>Salary:</td>
+      <td><input type="text" name="sal" [(ngModel)]='sal'></td>
+    </tr>
+    <tr>
+      <td>Department:</td>
+      <td><input type="text" name="dept" [(ngModel)]='dept'></td>
+    </tr>
+    <tr>
+      <td><button (click)="add(id,name,sal,dept)">Add Employee</button></td>
+    </tr>
+  </table>
+  
+</form>
+{{id}}
+{{name}}
+{{sal}}
+{{dept}}
